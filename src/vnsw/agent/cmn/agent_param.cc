@@ -386,9 +386,11 @@ void AgentParam::ParseDefaultSection() {
     } else {
         log_local_ = false;
     }
+/*
     if (opt_uint = tree_.get_optional<unsigned int>("DEFAULT.log_local")) {
         debug_logging = opt_uint.get();
     }
+*/
     if (debug_logging) {
         debug_ = true;
     } else {
